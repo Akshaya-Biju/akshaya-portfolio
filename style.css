@@ -1196,3 +1196,202 @@ section h2{
     margin-top:40px;
 
 }
+/* ==========================
+   Mobile Responsive
+========================== */
+
+@media (max-width:768px){
+
+nav{
+
+    padding:20px;
+
+}
+
+nav ul{
+
+    display:flex;
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:15px;
+
+}
+
+.hero{
+
+    flex-direction:column-reverse;
+
+    text-align:center;
+
+    padding:40px 25px;
+
+}
+
+.hero-image img{
+
+    width:240px;
+
+    height:240px;
+
+}
+
+.hero h1{
+
+    font-size:3rem;
+
+}
+
+.hero h2{
+
+    font-size:1.5rem;
+
+}
+
+.hero-buttons{
+
+    flex-direction:column;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+.btn{
+
+    width:220px;
+
+}
+
+.skills-grid,
+.project-grid,
+.leadership-grid{
+
+    grid-template-columns:1fr;
+
+}
+
+.featured-project{
+
+    flex-direction:column;
+
+}
+
+.featured-project img{
+
+    width:100%;
+
+}
+
+section{
+
+    padding:70px 25px;
+
+}
+
+}
+/* =========================================
+   FINAL MOBILE RESPONSIVE FIX
+========================================= */
+
+@media (max-width:768px){
+
+/* Intro Screen */
+
+.intro-image img{
+    width:280px !important;
+    max-width:85% !important;
+    height:auto !important;
+}
+
+.intro-screen h1{
+    font-size:2rem !important;
+}
+
+.intro-screen p{
+    font-size:1rem !important;
+    line-height:1.7;
+}
+
+/* Navigation */
+
+nav{
+    padding:20px;
+}
+
+nav ul{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+}
+
+/* Hero */
+
+.hero{
+    flex-direction:column-reverse;
+    text-align:center;
+    padding:40px 20px;
+    gap:30px;
+}
+
+.hero-image img{
+    width:240px !important;
+    height:240px !important;
+}
+
+.hero h1{
+    font-size:3rem;
+}
+
+.hero h2{
+    font-size:1.5rem;
+}
+
+.description{
+    font-size:1.05rem;
+    line-height:1.8;
+}
+
+/* Buttons */
+
+.hero-buttons{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:15px;
+}
+
+.btn{
+    width:220px;
+}
+
+/* Cards */
+
+.skills-grid,
+.project-grid,
+.leadership-grid{
+    grid-template-columns:1fr;
+    gap:25px;
+}
+
+/* Featured Project */
+
+.featured-project{
+    flex-direction:column;
+}
+
+.featured-project img{
+    width:100%;
+}
+
+/* Sections */
+
+section{
+    padding:70px 20px;
+}
+
+}
