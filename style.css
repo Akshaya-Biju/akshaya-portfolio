@@ -1196,130 +1196,42 @@ section h2{
     margin-top:40px;
 
 }
-/* ==========================
-   Mobile Responsive
-========================== */
+/* =========================
+   FINAL MOBILE RESPONSIVE
+========================= */
 
 @media (max-width:768px){
 
-nav{
-
+#intro-screen{
     padding:20px;
-
 }
 
-nav ul{
-
-    display:flex;
-
-    flex-wrap:wrap;
-
-    justify-content:center;
-
-    gap:15px;
-
-}
-
-.hero{
-
-    flex-direction:column-reverse;
-
-    text-align:center;
-
-    padding:40px 25px;
-
-}
-
-.hero-image img{
-
-    width:240px;
-
-    height:240px;
-
-}
-
-.hero h1{
-
-    font-size:3rem;
-
-}
-
-.hero h2{
-
-    font-size:1.5rem;
-
-}
-
-.hero-buttons{
-
-    flex-direction:column;
-
-    align-items:center;
-
-    gap:15px;
-
-}
-
-.btn{
-
+.intro-card img{
     width:220px;
-
+    height:220px;
 }
 
-.skills-grid,
-.project-grid,
-.leadership-grid{
-
-    grid-template-columns:1fr;
-
+.intro-card h1{
+    font-size:2.2rem;
 }
 
-.featured-project{
-
-    flex-direction:column;
-
+.intro-role{
+    font-size:1rem;
 }
 
-.featured-project img{
-
-    width:100%;
-
+.quote{
+    font-size:0.95rem;
+    line-height:1.6;
 }
 
-section{
-
-    padding:70px 25px;
-
+.loader{
+    width:90%;
 }
-
-}
-/* =========================================
-   FINAL MOBILE RESPONSIVE FIX
-========================================= */
-
-@media (max-width:768px){
-
-/* Intro Screen */
-
-.intro-image img{
-    width:280px !important;
-    max-width:85% !important;
-    height:auto !important;
-}
-
-.intro-screen h1{
-    font-size:2rem !important;
-}
-
-.intro-screen p{
-    font-size:1rem !important;
-    line-height:1.7;
-}
-
-/* Navigation */
 
 nav{
-    padding:20px;
+    flex-direction:column;
+    gap:18px;
+    padding:18px;
 }
 
 nav ul{
@@ -1329,69 +1241,59 @@ nav ul{
     gap:15px;
 }
 
-/* Hero */
-
 .hero{
     flex-direction:column-reverse;
     text-align:center;
-    padding:40px 20px;
-    gap:30px;
+    gap:35px;
+    padding-top:120px;
 }
 
 .hero-image img{
-    width:240px !important;
-    height:240px !important;
+    width:240px;
+    height:240px;
 }
 
-.hero h1{
-    font-size:3rem;
+.hero-text h1{
+    font-size:2.8rem;
 }
 
-.hero h2{
-    font-size:1.5rem;
+.hero-text h2{
+    font-size:1.3rem;
 }
 
 .description{
-    font-size:1.05rem;
-    line-height:1.8;
+    max-width:100%;
+    font-size:1rem;
+    margin:auto;
 }
 
-/* Buttons */
-
 .hero-buttons{
-    display:flex;
     flex-direction:column;
     align-items:center;
-    gap:15px;
 }
 
 .btn{
     width:220px;
 }
 
-/* Cards */
+.featured-project{
+    grid-template-columns:1fr;
+    text-align:center;
+}
+
+.project-buttons,
+.project-tech{
+    justify-content:center;
+}
 
 .skills-grid,
 .project-grid,
 .leadership-grid{
     grid-template-columns:1fr;
-    gap:25px;
 }
-
-/* Featured Project */
-
-.featured-project{
-    flex-direction:column;
-}
-
-.featured-project img{
-    width:100%;
-}
-
-/* Sections */
 
 section{
-    padding:70px 20px;
+    min-height:auto;
+    padding:90px 25px;
 }
-
 }
