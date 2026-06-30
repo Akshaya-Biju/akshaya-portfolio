@@ -498,11 +498,19 @@ section h2::after{
 
 }
 
-.featured-content h3{
+.featured-content{
 
-    font-size:2rem;
+    width:100%;
 
-    margin-bottom:20px;
+    padding:0;
+
+}
+
+.featured-content p{
+
+    padding:0 10px;
+
+    text-align:center;
 
 }
 
@@ -1049,9 +1057,13 @@ animation:fadeUp 1s ease,
 }
 .more-projects .btn{
 
-    margin-top:30px;
+    width:100%;
 
-    display:inline-block;
+    max-width:260px;
+
+    margin:25px auto 0;
+
+    display:block;
 
 }
 /* ===========================
@@ -1068,7 +1080,13 @@ animation:fadeUp 1s ease,
 
     padding-right:5px;
 
-    white-space:nowrap;
+    white-space:normal;
+
+    word-break:break-word;
+
+    display:inline-block;
+
+    max-width:100%;
 
     animation:blink .8s infinite;
 
