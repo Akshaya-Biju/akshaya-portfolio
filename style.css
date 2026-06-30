@@ -1296,4 +1296,46 @@ section{
     min-height:auto;
     padding:90px 25px;
 }
+.hero-text{
+    width:100%;
+}
+
+.hero-text h1{
+    font-size:2.7rem;
+    line-height:1.2;
+}
+
+.hero-text h2{
+    font-size:1.1rem;
+    white-space:normal;
+    overflow-wrap:break-word;
+    line-height:1.4;
+}
+
+.hero-text p{
+    width:100%;
+    padding:0 12px;
+}
+.hero{
+    overflow:hidden;
+}
+
+.hero-text{
+    margin:0 auto;
+}
+.featured-content{
+    padding:0 15px;
+}
+
+.featured-content p{
+    line-height:1.8;
+}
+.more-projects{
+    padding:0 20px;
+}
+
+.more-projects .btn{
+    width:220px;
+    max-width:100%;
+}
 }
